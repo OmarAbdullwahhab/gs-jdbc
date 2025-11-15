@@ -101,7 +101,7 @@ org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The
 	at org.h2.Driver.connect(Driver.java:59)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
-	at gs.jdbc.Main1.main(Main1.java:13)
+	at gs.jdbc.concepts.Main1.main(Main1.java:13)
 Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: /home/software/IdeaProjects/gs-jdbc/gs-jdbc.mv.db [2.4.240/7]" [50000-240]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -146,7 +146,7 @@ org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The
 	at org.h2.Driver.connect(Driver.java:59)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
-	at gs.jdbc.Main1.main(Main1.java:13)
+	at gs.jdbc.concepts.Main1.main(Main1.java:13)
 Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: /home/software/IdeaProjects/gs-jdbc/gs-jdbc.mv.db [2.4.240/7]" [50000-240]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -194,7 +194,7 @@ org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The
 	at org.h2.Driver.connect(Driver.java:59)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
-	at gs.jdbc.CreateTable.main(CreateTable.java:14)
+	at gs.jdbc.concepts.CreateTable.main(CreateTable.java:14)
 Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: /home/software/IdeaProjects/gs-jdbc/gs-jdbc.mv.db [2.4.240/7]" [50000-240]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -225,7 +225,7 @@ org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The
 	at org.h2.Driver.connect(Driver.java:59)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
-	at gs.jdbc.CreateTable.main(CreateTable.java:14)
+	at gs.jdbc.concepts.CreateTable.main(CreateTable.java:14)
 Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: /home/software/IdeaProjects/gs-jdbc/gs-jdbc.mv.db [2.4.240/7]" [50000-240]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -249,7 +249,7 @@ create table test2(id integer primary key, name varchar(20)) [90002-240]
 	at org.h2.command.CommandContainer.query(CommandContainer.java:222)
 	at org.h2.command.Command.executeQuery(Command.java:198)
 	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
-	at gs.jdbc.CreateTable.main(CreateTable.java:21)
+	at gs.jdbc.concepts.CreateTable.main(CreateTable.java:21)
 2025-11-14 07:46:11.750762+03:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST2" already exists; SQL statement:
 create table test2(id integer primary key, name varchar(20)) [42101-240]
@@ -294,7 +294,7 @@ org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The
 	at org.h2.Driver.connect(Driver.java:59)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
-	at gs.jdbc.CreateTable.main(CreateTable.java:11)
+	at gs.jdbc.concepts.CreateTable.main(CreateTable.java:11)
 Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: /home/software/IdeaProjects/gs-jdbc/gs-jdbc.mv.db [2.4.240/7]" [50000-240]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)

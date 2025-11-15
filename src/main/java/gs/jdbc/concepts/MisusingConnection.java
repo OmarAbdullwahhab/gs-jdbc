@@ -1,6 +1,7 @@
-package gs.jdbc;
+package gs.jdbc.concepts;
 
-import java.sql.Connection;
+import gs.jdbc.Main;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 

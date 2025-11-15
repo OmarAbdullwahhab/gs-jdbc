@@ -1,4 +1,6 @@
-package gs.jdbc;
+package gs.jdbc.concepts;
+
+import gs.jdbc.ConnectionManager;
 
 public class ReusingConnection {
 
