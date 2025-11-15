@@ -17,11 +17,13 @@ public class ConnectionManager {
         }
     }
 
-    private static ConnectionManager INSTANCE;
+    private static volatile ConnectionManager INSTANCE;
 
     public static ConnectionManager getInstance(){
         if(INSTANCE == null){
-            INSTANCE = new ConnectionManager();
+            synchronized (ConnectionManager.class) { //old
+                INSTANCE = new ConnectionManager();
+            }
         }
         return INSTANCE;
     }
