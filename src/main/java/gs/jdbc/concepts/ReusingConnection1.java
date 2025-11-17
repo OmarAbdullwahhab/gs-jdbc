@@ -1,6 +1,6 @@
 package gs.jdbc.concepts;
 
-import gs.jdbc.ConnectionManager;
+import gs.jdbc.connection.ConnectionManager;
 
 import java.sql.Connection;
 import java.sql.SQLException;

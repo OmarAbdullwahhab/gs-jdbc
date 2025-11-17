@@ -1,4 +1,4 @@
-package gs.jdbc;
+package gs.jdbc.utils;
 
 import org.h2.tools.Server;
 

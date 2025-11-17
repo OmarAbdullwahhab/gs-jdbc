@@ -1,4 +1,6 @@
-package gs.jdbc;
+package gs.jdbc.connection;
+
+import gs.jdbc.Main;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

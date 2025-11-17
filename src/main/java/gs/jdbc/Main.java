@@ -1,8 +1,7 @@
 package gs.jdbc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import gs.jdbc.utils.H2DatabaseServerUtil;
+import gs.jdbc.utils.H2WebUtil;
 
 //Driver..
 //impl jdbc api...
